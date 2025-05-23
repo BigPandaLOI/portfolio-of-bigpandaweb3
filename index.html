@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bigpandaweb3 Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b61cbf64d7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Assests/namelogo.jpeg" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="main-container">
+            <div class="hero-section">
+                <div class="wrapper">
+                    <h2>Hi, it's <span>BigPandaWeb3</span></h2>
+
+                    <div class="role-description">
+                        <div class="static-txt">I'm <span id="typewriter-text"> </span><span class="cursor">|</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="image-section">
+                <img src="Assests/profilepic.jpeg">
+            </div>
+
+            </div>
+            </div>
+        </div>
+    </div>
+    <!-------------------------about------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Assests/user.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I’m BigpandaWeb3. A Computer Engineering student specializing in AI and Robotics, frontend developer, Web3 writer, and digital artist. I blend creativity with technical skills to build immersive, decentralized experiences. Currently, I’m creating Oryon Sphere, a Web3 ecosystem uniting gaming, learning, finance, and creation through the power of $ORYN. This portfolio is my Proof of Work. </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Frontend Development</span><br>Designing stunning frontend interfaces</li>
+                            <li><span>Digital Artist</span><br>Graphics designer, Cel artist/NFT curator</li>
+                            <li><span>Writer</span><br>Professional technical/content writer</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2019 - 2021</span><br>Content writer at accurator.ng</li>
+                            <li><span>2024 - current</span><br>Lead Architect at Oryon Sphere</li>
+                            <li><span>2022 - 2023</span><br>Worked with a frontend team for a local project called NOVA gyan</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2019 - current</span><br>Computer Engineering at Ahmadu Bello University</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------------------services--------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Frontend Dev</h2>
+                    <p>I am a professional frontend developer and have knowledge on frameworks such as tailwindcss, next.js and typescript.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-pen-nib"></i>
+                    <h2>Writer</h2>
+                    <p>I offer writing services such as creating technical pieces, content articles, blogs, threads and detailed explainer essays.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-palette"></i>
+                    <h2>Digital Artist</h2>
+                    <p>I offer clean, detailed, crisp quality artworks and graphics. Be it for articles and writeups, logos and covers, NFT designs or even casual mockups. I'm your go-to guy.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------------------------Portfolio---------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Assests/work-1.png">
+                    <div class="layer">
+                        <h3>Dev Projects</h3>
+                        <p>A cumulation of projects i have worked on.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Assests/work-2.png">
+                    <div class="layer">
+                        <h3>Writer PoW</h3>
+                        <p>A cumulation articles, blogs, threads and technical pieces i have worked on.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Assests/work-3.jpg">
+                    <div class="layer">
+                        <h3>Art Gallery</h3>
+                        <p>A curation of all the artworks i have done so far.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------------------------contact---------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>bigpandaweb3@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+234 802 454 7410</p>
+                    <div class="social-icons">
+                        <a href="https://x.com/bigpandaweb3?t=ugYJf7fzk01j9D-hVUaEmg&s=09"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://substack.com/@bigpandaweb3"><i class="fa-solid fa-layer-group"></i></a>
+                    </div>
+                    <a href="" class="btn" download >Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" row="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn">Submit</button>
+                    </form>
+                    <span id="msg">
+                        <p></p>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright Bigpandaweb3.</p>
+        </div>
+    </div>
+
+</body>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+
+
+
+
+
+
+
+    
+  const roles = ["a Writer", "a Developer", "an Artist"];
+  const textElement = document.getElementById("typewriter-text");
+
+  let roleIndex = 0;
+  let charIndex = 0;
+  let typing = true;
+
+  function typeWriterEffect() {
+    const currentRole = roles[roleIndex];
+
+    if (typing) {
+      if (charIndex < currentRole.length) {
+        textElement.textContent += currentRole.charAt(charIndex);
+        charIndex++;
+        setTimeout(typeWriterEffect, 100);
+      } else {
+        typing = false;
+        setTimeout(typeWriterEffect, 1000);
+      }
+    } else {
+      if (charIndex > 0) {
+        textElement.textContent = currentRole.substring(0, charIndex - 1);
+        charIndex--;
+        setTimeout(typeWriterEffect, 50);
+      } else {
+        typing = true;
+        roleIndex = (roleIndex + 1) % roles.length;
+        setTimeout(typeWriterEffect, 300);
+      }
+    }
+  }
+
+  document.addEventListener("DOMContentLoaded", typeWriterEffect);
+  
+  
+</script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwJ7eYB16P6A965rQkosV4Y7zApFs4M7kIMZHH8bfQpdlrdqn6mkTfoXVEIUGP7SnFJ/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+</html>
